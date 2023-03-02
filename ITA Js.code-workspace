@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "../../../Desktop/ITA Js"
+		},
+		{
+			"path": "../Web site building"
+		},
+		{
+			"path": "../frontEnd projekat"
+		},
+		{
+			"path": "../animacija"
+		},
+		{
+			"path": "../1 zadaca JS"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "frontEnd prijekat 1"
+	}
+}

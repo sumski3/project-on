@@ -31,21 +31,32 @@ body {
 
 }
 
+svg{
+    transform: translatey(30px);
+}
+
 nav {
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
     /*  padding-top: 5% ; */
     /* padding-left: 10%; */
-    padding-right: 20%;
+    padding-right: 18%; 
+    color: hsl(236, 13%, 42%); 
 
 }
 
 nav ul li {
     list-style-type: none;
     display: inline-block;
-    padding: 20px;
-    box-sizing: border-box;
+    padding: 30px; 
+    cursor: pointer;
+    box-sizing: border-box; 
+     
+}
+
+nav ul li a:hover {
+    color: hsl(35, 77%, 62%);
 }
 
 nav ul li a {
@@ -132,7 +143,14 @@ h1{
     color: hsl(35, 77%, 62%);
 } 
 
+h4{
+    color: white;
+    cursor: pointer;
+} 
 
+h4:hover{
+    color:  hsl(35, 77%, 62%);
+}
 
 p{
     color:hsl(236, 13%, 42%); 
@@ -143,46 +161,89 @@ hr{
     background-color: hsl(236, 13%, 42%);
     height: 3px;
     border: none;
-} 
+}  
 
-.footer img{
+.footer-main{ 
+    height: 120px;
+    display: flex;
+    transform: translatey(60px);
+    flex-direction: row;
+    justify-content: space-between; 
+    
+}
+
+.footer-main img{
     width: 100px;
     height: 170px;
-    display: flex; 
-    margin: 0;
-    
-} 
+   
+   
+}  
 
-.footer{
-    padding-top: 70px;
-    display: flex; 
-    margin: 0;
-    
-} 
-
-.therdImg{
-  min-width: 39%;
-    /* display: flex;  */
-    flex-direction: row;
-    justify-content: flex-start;
-} 
-
-.secondImg{
-    /* display: flex; */
-} 
-
-
-.firstImg{
-    
-} 
-
-.textOne{
-    
-
-} 
-
-.first-footer{
-    display: flex; 
-    flex-direction: row;
-
+.proba{
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+   
 }
+    
+
+
+.footer-first{
+    width: 280px;
+    height: 120px; 
+    display: flex;
+    flex-direction: row; 
+    gap: 0px 20px; 
+   
+    
+}
+
+.footer-second{
+    width: 280px;
+    height: 120px;
+    display: flex; 
+    flex-direction: row;
+    gap: 0px 20px;
+    transform: translatex(-70px);
+
+}  
+
+
+
+
+.footer-theard{
+    width: 300px;
+    height: 120px;
+    display: flex; 
+    flex-direction: row; 
+    gap: 0px 20px; 
+    transform: translatex(-147px);
+}
+
+ .midlle-txt{
+    font-size: 14px;
+    color: hsl(240, 100%, 5%);
+    font-weight: bold; 
+    cursor: pointer;
+} 
+
+.midlle-txt:hover{
+    color: hsl(5, 85%, 63%);
+}
+
+.footer-main p{
+    font-size: 24px;
+    font-weight: bold; 
+    margin: 0;
+    padding: 0; 
+   color:  hsl(236, 13%, 42%); 
+   gap: 0, 20px;
+    
+} 
+
+.down-txt{
+    font-size: 12px; 
+    color: hsl(236, 13%, 42%); 
+    line-height: 1.7;
+}
+

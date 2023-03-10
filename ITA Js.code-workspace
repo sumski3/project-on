@@ -17,6 +17,12 @@
 		},
 		{
 			"path": "."
+		},
+		{
+			"path": "../JS cas 5"
+		},
+		{
+			"path": "../JS peti cas"
 		}
 	],
 	"settings": {
